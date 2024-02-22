@@ -21,6 +21,8 @@ protected:
 
 	DECLARE_MESSAGE_MAP()
 public:
-	afx_msg void OnBnClickedButton1();
-	afx_msg void OnBnClickedBitmap1();
+	afx_msg void OnBnClickedButtonAbs();
+	afx_msg void OnBnClickedButton();
+	afx_msg void OnBnClickedButtonAtt();
+	afx_msg void OnBnClickedButtoninf();
 };

@@ -6,6 +6,8 @@
 #include "WinLOGIN.h"
 #include "afxdialogex.h"
 #include "C_Absences.h"
+#include "C_Attendance.h"
+#include "C_information.h"
 
 
 // WinLOGIN 对话框
@@ -29,14 +31,16 @@ void WinLOGIN::DoDataExchange(CDataExchange* pDX)
 
 
 BEGIN_MESSAGE_MAP(WinLOGIN, CDialogEx)
-	ON_BN_CLICKED(IDC_BUTTON1, &WinLOGIN::OnBnClickedButton1)
+	ON_BN_CLICKED(IDC_BUTTON_ABS, &WinLOGIN::OnBnClickedButtonAbs)
+	ON_BN_CLICKED(IDC_BUTTON_ATT, &WinLOGIN::OnBnClickedButtonAtt)
+	ON_BN_CLICKED(IDC_BUTTON_inf, &WinLOGIN::OnBnClickedButtoninf)
 END_MESSAGE_MAP()
 
 
 // WinLOGIN 消息处理程序
 
 
-void WinLOGIN::OnBnClickedButton1()
+void WinLOGIN::OnBnClickedButtonAbs()
 {
 	// TODO: 在此添加控件通知处理程序代码
 	CDialogEx::OnOK();
@@ -44,3 +48,20 @@ void WinLOGIN::OnBnClickedButton1()
 	abs.DoModal();
 }
 
+
+
+void WinLOGIN::OnBnClickedButtonAtt()
+{
+	CDialogEx::OnOK();
+	C_Attendance att;
+	att.DoModal();
+}
+
+
+void WinLOGIN::OnBnClickedButtoninf()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	CDialogEx::OnOK();
+	C_information inf;
+	inf.DoModal();
+}

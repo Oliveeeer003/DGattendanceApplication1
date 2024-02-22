@@ -57,6 +57,9 @@
     <ClInclude Include="C_Attendance.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="C_information.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DGattendanceApplication1.cpp">
@@ -84,6 +87,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="C_Attendance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="C_information.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

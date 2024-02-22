@@ -185,6 +185,7 @@
   <ItemGroup>
     <ClInclude Include="C_Absences.h" />
     <ClInclude Include="C_Attendance.h" />
+    <ClInclude Include="C_information.h" />
     <ClInclude Include="DGattendanceApplication1.h" />
     <ClInclude Include="DGattendanceApplication1Dlg.h" />
     <ClInclude Include="framework.h" />
@@ -199,6 +200,7 @@
   <ItemGroup>
     <ClCompile Include="C_Absences.cpp" />
     <ClCompile Include="C_Attendance.cpp" />
+    <ClCompile Include="C_information.cpp" />
     <ClCompile Include="DGattendanceApplication1.cpp" />
     <ClCompile Include="DGattendanceApplication1Dlg.cpp" />
     <ClCompile Include="pch.cpp">
