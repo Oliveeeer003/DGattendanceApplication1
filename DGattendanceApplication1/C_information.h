@@ -20,4 +20,10 @@ protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV 支持
 
 	DECLARE_MESSAGE_MAP()
+public:
+	CEdit CtrCareer;
+	CEdit CtrName;
+	CEdit CtrNum;
+	CEdit CtrPass;
+	virtual BOOL OnInitDialog();
 };
