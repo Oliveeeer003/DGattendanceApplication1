@@ -26,4 +26,7 @@ public:
 	CEdit CtrNum;
 	CEdit CtrPass;
 	virtual BOOL OnInitDialog();
+	afx_msg void OnBnClickedButton01();
+	afx_msg void OnBnClickedMyButton01();
+	afx_msg void OnBnClickedMyButton02();
 };

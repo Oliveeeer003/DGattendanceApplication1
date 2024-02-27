@@ -9,7 +9,7 @@
 #include "C_Attendance.h"
 #include "C_information.h"
 
-
+#define IDC_MYBUTTON01 10000
 // WinLOGIN 对话框
 
 IMPLEMENT_DYNAMIC(WinLOGIN, CDialogEx)

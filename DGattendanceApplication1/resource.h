@@ -21,7 +21,6 @@
 #define IDC_EDIT3                       1003
 #define IDC_BUTTON_inf                  1003
 #define IDC_EDIT4                       1004
-#define IDC_EDIT5                       1005
 #define IDC_EDIT_PASSW                  1005
 #define IDC_BUTTON_ON                   1018
 #define IDC_BUTTON_OFF                  1019
@@ -30,6 +29,7 @@
 #define IDC_EDIT_NAME                   1026
 #define IDC_EDIT_NUM                    1027
 #define IDC_EDIT_CAREER                 1028
+#define IDC_CUSTOM1                     1029
 #define IDD_DIALOG_ATTENDANCE           58114
 
 // Next default values for new objects
@@ -38,7 +38,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        141
 #define _APS_NEXT_COMMAND_VALUE         32771
-#define _APS_NEXT_CONTROL_VALUE         1029
+#define _APS_NEXT_CONTROL_VALUE         1032
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif
